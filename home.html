@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240610230025">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="popup" aria-hidden="true" class="popup popup_executed">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__text executed">
+						<div class="executed__block-icon">
+							<h2 class="executed__icon _icon-check-form"></h2>
+						</div>
+						<div class="executed__block">
+							<h2 class="executed__headline text text--popup-title">Successfully processed!</h2>
+							<p class="executed__text text text--popup-text">Your order has been successfully placed! Thank you for
+								choosing us.</p>
+						</div>
+					</div>
+				</div>
+				<div class="popup__content">
+					<div class="popup__text executed">
+						<div class="executed__button-block">
+							<button data-close class="executed__button button button--white _icon-arrow-select">Back to
+								Home</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".section-home" class="menu__link title">Home</a></li>
+							<li class="menu__item"><a href="#" data-goto=".section-about" class="menu__link title">About us</a></li>
+							<li class="menu__item"><a href="#" data-goto=".section-portfolio" class="menu__link title">Portfolio</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".section-offer" class="menu__link title">What do we
+									offer</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto=".special-offers" class="menu__link title">Special offer</a>
+							</li>
+						</ul>
+						<a href="#" class="menu__button button button--blue _icon-arrow-select">Leave a request</a>
+						<div class="menu__contacts">
+							<h2 class="menu__title-contact title">Contacts</h2>
+							<ul class="menu__list-contact">
+								<li class="menu__item-contact"><a href="tel:+41796325136" class="menu__link-contact _icon-phone-call">+41796325136</a></li>
+								<li class="menu__item-contact"><a href="mailto:kirillchacha2000@gmail.com" class="menu__link-contact _icon-fi-mail">kirillchacha2000@gmail.com</a></li>
+								<li class="menu__item-contact"><a href="#" class="menu__link-contact _icon-location-pin-svgrepo-com">city.Oberutsville</a></li>
+							</ul>
+						</div>
+						<ul class="menu__social-list">
+							<li class="menu__social-item"><a href="#" data-tippy-content="telegram" class="menu__social-link _icon-telegram"></a></li>
+							<li class="menu__social-item"><a href="#" data-tippy-content="twitterx" class="menu__social-link _icon-icons8-twitterx"></a></li>
+							<li class="menu__social-item"><a href="#" data-tippy-content="instagram" class="menu__social-link _icon-instagram"></a></li>
+							<li class="menu__social-item"><a href="mailto:kirillchacha2000@gmail.com" data-tippy-content="gmail" class="menu__social-link _icon-fi-mail"></a></li>
+							<li class="menu__social-item"><a href="tel:+41796325136" data-tippy-content="phone" class="menu__social-link _icon-phone-call"></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main data-fp data-fp-bullets class="page">
+			<section data-fp-section class="page__home-section main-screen section-home">
+				<div data-watch data-watch-once class="section-home__container">
+					<h1 class="section-home__title title title--home uppercase">web applications</h1>
+					<p class="section-home__parahraph title">Everyday practice.</p>
+					<div class="section-home__block">
+						<button type="button" class="section-home__button button _icon-arrow-select"><span></span>
+							<span></span>
+							<span></span>
+							<span></span>Special offer</button>
+					</div>
+				</div>
+			</section>
+			<section data-fp-section class="page__about main-screen section-about">
+				<div data-watch data-watch-once class="section-about__container">
+					<div class="section-about__left-picture"></div>
+					<div class="section-about__right right-s-about">
+						<h2 class="right-s-about__headline title title--main-h2">About Company</h2>
+						<div class="right-s-about__block text">
+							<p class="right-s-about__text">We are a digital agency engaged in a full cycle of promotion of
+								companies on the Internet.</p>
+							<p class="right-s-about__text">Website development - We will make a unique design according to your
+								corporate style. We will write clean code, without the use of constructors.</p>
+							<p class="right-s-about__text">Promotion - we will help you quickly achieve the desired result,
+								provide a constant flow of new applications.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-fp-section class="page__portfolio main-screen section-portfolio">
+				<div data-watch data-watch-once class="section-portfolio__container">
+					<div class="section-portfolio__block text-center">
+						<h2 class="section-portfolio__headline title title--main-h2">Portfolio</h2>
+					</div>
+					<!-- Оболонка слайдера -->
+					<div class="section-portfolio__block-slider">
+						<div class="section-portfolio__arrows">
+							<button type="button" class="section-portfolio__arrow-left swiper-button-prev button button--arrows-slide _icon-arrow-select"></button>
+							<button type="button" class="section-portfolio__arrow-right swiper-button-next button button--arrows-slide _icon-arrow-select"></button>
+						</div>
+						<div class="section-portfolio__slider  swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="section-portfolio__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="section-portfolio__slide slide-s-portfolio swiper-slide">
+									<div class="slide-s-portfolio__top">
+										<img class="slide-s-portfolio__image ibg" data-src="img/portfolio/portfolio-1.webp" alt="Image">
+									</div>
+									<div class="slide-s-portfolio__bottom">
+										<button type="button" class="button _icon-arrow-select"><span></span>
+											<span></span>
+											<span></span>
+											<span></span>Go to site</button>
+									</div>
+								</div>
+								<div class="section-portfolio__slide slide-s-portfolio swiper-slide">
+									<div class="slide-s-portfolio__top">
+										<img class="slide-s-portfolio__image ibg" data-src="img/portfolio/portfolio-2.webp" alt="Image">
+									</div>
+									<div class="slide-s-portfolio__bottom">
+										<button type="button" class="button _icon-arrow-select"><span></span>
+											<span></span>
+											<span></span>
+											<span></span>Go to site</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-fp-section class="page__offer main-screen section-offer">
+				<div data-watch data-watch-once class="section-offer__container">
+					<h2 class="section-offer__headline title title--main-h2 text-center">What we offer</h2>
+					<div class="section-offer__content content-s-offer grid">
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-1.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="High level of fulfilment" src="img/offer/offer-1.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">High level of fulfilment</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-2.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Guarantee the quality of work" src="img/offer/offer-2.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Guarantee the quality of work</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-3.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="We'll do the job quickly" src="img/offer/offer-3.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">We'll do the job quickly</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-4.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Ensure the flow of applications" src="img/offer/offer-4.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Ensure the flow of applications</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-5.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Automate your work" src="img/offer/offer-5.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Automate your work</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-6.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="We will develop a unique design" src="img/offer/offer-6.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">We will develop a unique design</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-7.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Let's write a clean code" src="img/offer/offer-7.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Let's write a clean code</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-8.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Contextual advertising" src="img/offer/offer-8.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Contextual advertising</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-9.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Tertiary adverts" src="img/offer/offer-9.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Tertiary adverts</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-10.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="SEO advancement" src="img/offer/offer-10.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">SEO advancement</p>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-11.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="Social media promotion" src="img/offer/offer-11.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">Social media promotion</p>
+						</div>
+						<div class="content-s-offer__item">
+							<button type="button" class="content-s-offer__button button button--white _icon-arrow-select">More</button>
+						</div>
+						<div class="content-s-offer__item">
+							<div class="content-s-offer__block-image">
+								<img class="content-s-offer__image" src="img/offer/offer-12.webp" alt="Image">
+								<img class="content-s-offer__image content-s-offer__image--conceal" data-tippy-content="High level of fulfilment" src="img/offer/offer-12.webp" alt="Image">
+							</div>
+							<p class="content-s-offer__parahraph text text--white">High level of fulfilment</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-fp-section class="page__advantages main-screen section-advantages">
+				<div data-watch data-watch-once class="section-advantages__container">
+					<h2 class="section-advantages__headline title title--main-h2">Our advantages</h2>
+					<div class="section-advantages__list list-s-advantage">
+						<div class="list-s-advantage__item text text--two">
+							<div class="list-s-advantage__image-block">
+								<img class="list-s-advantage__image" src="img/advantages/advantages-1.webp" alt="Image">
+							</div>
+							<p class="list-s-advantage__parahraph">We make adaptive design, for any type of device</p>
+						</div>
+						<div class="list-s-advantage__item text text--two">
+							<div class="list-s-advantage__image-block">
+								<img class="list-s-advantage__image" src="img/advantages/advantages-2.webp" alt="Image">
+							</div>
+							<p class="list-s-advantage__parahraph">We will install analytics counters on the site and set up
+								the ability to track results directly from your mobile phone</p>
+						</div>
+						<div class="list-s-advantage__item text text--two">
+							<div class="list-s-advantage__image-block">
+								<img class="list-s-advantage__image" src="img/advantages/advantages-3.webp" alt="Image">
+							</div>
+							<p class="list-s-advantage__parahraph">Set up all possible ways of feedback. Applications to mail,
+								connect online consultant, set up a phone call from the site, connect Whatsapp to the site</p>
+						</div>
+						<div class="list-s-advantage__item text text--two">
+							<div class="list-s-advantage__image-block">
+								<img class="list-s-advantage__image" src="img/advantages/advantages-4.webp" alt="Image">
+							</div>
+							<p class="list-s-advantage__parahraph">We will analyse your sphere and competitors, suggest the
+								best tools for promotion on the Internet</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-fp-section class="page__application-and-offers main-screen section-appandoff">
+				<div data-watch data-watch-once class="section-appandoff__bg-box">
+					<div class="section-appandoff__bg"></div>
+				</div>
+				<div data-watch data-watch-once class="section-appandoff__container">
+					<div class="section-appandoff__block">
+						<h2 class="section-appandoff__headline title title--main-h2">Request</h2>
+					</div>
+					<form action="files/sendmail/sendmail.php" method="POST" class="section-appandoff__form form-s-appandoff">
+						<div class="form-s-appandoff__block">
+							<div class="form-s-appandoff__line">
+								<label for="form-01" class="form-s-appandoff__label text text--white-two">Your
+									name:</label>
+								<input type="text" id="form-01" name="form[name]" placeholder="Write something" class="form-s-appandoff__input input">
+							</div>
+							<div class="form-s-appandoff__line">
+								<label for="form-02" class="form-s-appandoff__label text text--white-two">Your
+									email:</label>
+								<input type="email" id="form-02" name="form[email]" data-error="Wrong email" placeholder="Write something" class="form-s-appandoff__input input" data-required data-validate>
+							</div>
+							<div class="form-s-appandoff__line">
+								<label for="form-03" class="form-s-appandoff__label text text--white-two">Message:</label>
+								<textarea autocomplete="off" id="form-03" name="form[textarea]" placeholder="Write something" class="form-s-appandoff__area input" data-autoheight></textarea>
+							</div>
+						</div>
+						<div class="form-s-appandoff__button-block">
+							<button type="submit" class="form-s-appandoff__button button button--white _icon-arrow-select">Send</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section data-fp-section class="page__special-offers main-screen special-offers">
+				<div data-watch data-watch-once class="special-offers__container">
+					<div class="special-offers__block">
+						<h2 class="special-offers__headline title title--main-h2">Special offers</h2>
+					</div>
+					<div class="special-offers__items">
+						<article class="special-offers__item item-special-offers">
+							<div class="item-special-offers__block">
+								<h3 class="item-special-offers__headline">
+									<a href="#" data-popup="#popup" class="item-special-offers__link-headline title title--appandoff">Landing
+										Page</a>
+								</h3>
+								<p class="item-special-offers__parahraph text text--white-three">selling landing page.</p>
+							</div>
+							<div class="item-special-offers__sale">20% Off</div>
+							<div class="item-special-offers__price item-special-offers__price--old">000.000 &#8355</div>
+							<div class="item-special-offers__price">000.000 &#8355</div>
+						</article>
+						<article class="special-offers__item item-special-offers special-offers__item--blue">
+							<div class="item-special-offers__block">
+								<h3 class="item-special-offers__headline">
+									<a href="#" data-popup="#popup" class="item-special-offers__link-headline title title--appandoff">Business
+										site</a>
+								</h3>
+								<p class="item-special-offers__parahraph text text--white-three">Corporate site</p>
+							</div>
+							<div class="item-special-offers__price item-special-offers__price--old">000.000 &#8355</div>
+							<div class="item-special-offers__price">000.000 &#8355</div>
+						</article>
+						<article class="special-offers__item item-special-offers special-offers__item--dark-grey">
+							<div class="item-special-offers__block">
+								<h3 class="item-special-offers__headline">
+									<a href="#" data-popup="#popup" class="item-special-offers__link-headline title title--appandoff">SEO
+										promotion</a>
+								</h3>
+								<p class="item-special-offers__parahraph text text--white-three">We will help you set up seo.
+								</p>
+							</div>
+							<div class="item-special-offers__price item-special-offers__price--old">000.000 &#8355</div>
+							<div class="item-special-offers__price">000.000 &#8355</div>
+						</article>
+						<article class="special-offers__item item-special-offers">
+							<div class="item-special-offers__block">
+								<h3 class="item-special-offers__headline">
+									<a href="#" data-popup="#popup" class="item-special-offers__link-headline title title--appandoff">Contextual
+										adverts</a>
+								</h3>
+								<p class="item-special-offers__parahraph text text--white-three">Launching contextual
+									advertising for a month.</p>
+							</div>
+							<div class="item-special-offers__price">Free</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+	<div id="fls-preloader">
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderStyleTemplate = `
+				<style>
+					* {
+						padding: 0px;
+						margin: 0px;
+						border: 0px;
+						box-sizing: border-box;
+					}
+					/* Головний блок */
+					.fls-preloader{
+						background: url('img/bg-main.webp') 0 0/100% 106% no-repeat;
+						pointer-events: none;
+						z-index: -1;
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+						display: flex;
+						justify-content:center;
+						align-items: center;
+					}
+					/* Блок з елементами */
+					.fls-preloader__body{
+						padding: 0.93rem;
+						max-width: 31.25rem;
+						display: flex;
+						flex-direction: column;
+					}
+					.fls-preloader__loader {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						z-index: 10;
+						width: 160px;
+						height: 100px;
+						margin-left: -80px;
+						margin-top: -50px;
+						border-radius: 5px;
+						background: #1e3f57;
+						animation: dot1_ 3s cubic-bezier(0.55,0.3,0.24,0.99) infinite;
+					}
+					.fls-preloader__loader:nth-child(2) {
+						z-index: 11;
+						width: 150px;
+						height: 90px;
+						margin-top: -45px;
+						margin-left: -75px;
+						border-radius: 3px;
+						background: #3c517d;
+						animation-name: dot2_;
+					}
+
+					.fls-preloader__loader:nth-child(3) {
+						z-index: 12;
+						width: 40px;
+						height: 20px;
+						margin-top: 50px;
+						margin-left: -20px;
+						border-radius: 0 0 5px 5px;
+						background: #6bb2cd;
+						animation-name: dot3_;
+					}
+
+					@keyframes dot1_ {
+						3%,97% {
+							width: 160px;
+							height: 100px;
+							margin-top: -50px;
+							margin-left: -80px;
+						}
+
+						30%,36% {
+							width: 80px;
+							height: 120px;
+							margin-top: -60px;
+							margin-left: -40px;
+						}
+
+						63%,69% {
+						width: 40px;
+						height: 80px;
+						margin-top: -40px;
+						margin-left: -20px;
+						}
+					}
+
+					@keyframes dot2_ {
+						3%,97% {
+							height: 90px;
+							width: 150px;
+							margin-left: -75px;
+							margin-top: -45px;
+						}
+
+						30%,36% {
+							width: 70px;
+							height: 96px;
+							margin-left: -35px;
+							margin-top: -48px;
+						}
+
+						63%,69% {
+							width: 32px;
+							height: 60px;
+							margin-left: -16px;
+							margin-top: -30px;
+						}
+					}
+
+					@keyframes dot3_ {
+						3%,97% {
+							height: 20px;
+							width: 40px;
+							margin-left: -20px;
+							margin-top: 50px;
+						}
+
+						30%,36% {
+							width: 8px;
+							height: 8px;
+							margin-left: -5px;
+							margin-top: 49px;
+							border-radius: 8px;
+						}
+
+						63%,69% {
+							width: 16px;
+							height: 4px;
+							margin-left: -8px;
+							margin-top: -37px;
+							border-radius: 10px;
+						}
+					}
+
+					.dot-spinner {
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						--uib-speed: 0.9s;
+						height: 21rem;
+						width: 21rem;
+					}
+
+					@keyframes float {
+						0% {
+							transform: rotate(0deg) translate(100px) rotate(0deg);
+						}
+					
+						100% {
+							transform: rotate(360deg) translate(100px) rotate(-360deg);
+						}
+					}
+
+					.dot-spinner__dot::before {
+						content: '';
+						height: 18%;
+						width: 18%;
+						border-radius: 50%;
+						background-color: #01b345;
+						filter: drop-shadow(0 0 10px rgb(95, 150, 102));
+						box-shadow: -6px -6px 11px #c1c1c1,
+						6px 6px 11px #000;
+						transform: scale(0);
+						opacity: 0.5;
+						animation: pulse0112 calc(var(--uib-speed) * 1.111) ease-in-out infinite;
+						box-shadow: 0 0 20px rgba(18, 31, 53, 0.3);
+					}
+
+					.dot-spinner__dot {
+						position: absolute;
+						top: 0;
+						left: 0;
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						height: 100%;
+						width: 100%;
+					}
+
+					.dot-spinner__dot:nth-child(2) {
+						transform: rotate(45deg);
+					}
+
+					.dot-spinner__dot:nth-child(2)::before {
+						animation-delay: calc(var(--uib-speed) * -0.875);
+						background-color: #61B3C9;
+					}
+
+					.dot-spinner__dot:nth-child(3) {
+						transform: rotate(90deg);
+					}
+
+					.dot-spinner__dot:nth-child(3)::before {
+						animation-delay: calc(var(--uib-speed) * -0.75);
+						background-color: #074D88;
+					}
+
+					.dot-spinner__dot:nth-child(4) {
+						transform: rotate(135deg);
+					}
+
+					.dot-spinner__dot:nth-child(4)::before {
+						animation-delay: calc(var(--uib-speed) * -0.625);
+						background-color: #abbdd8;
+					}
+
+					.dot-spinner__dot:nth-child(5) {
+						transform: rotate(180deg);
+					}
+
+					.dot-spinner__dot:nth-child(5)::before {
+						animation-delay: calc(var(--uib-speed) * -0.5);
+						background-color: #595959;
+					}
+
+					.dot-spinner__dot:nth-child(6) {
+						transform: rotate(225deg);
+					}
+
+					.dot-spinner__dot:nth-child(6)::before {
+						animation-delay: calc(var(--uib-speed) * -0.375);
+						background-color: #8d8c92;
+					}
+
+					.dot-spinner__dot:nth-child(7) {
+						transform: rotate(270deg);
+					}
+
+					.dot-spinner__dot:nth-child(7)::before {
+						animation-delay: calc(var(--uib-speed) * -0.25);
+						background-color: #074D88;
+					}
+
+					.dot-spinner__dot:nth-child(8) {
+						transform: rotate(315deg);
+					}
+
+					.dot-spinner__dot:nth-child(8)::before {
+						animation-delay: calc(var(--uib-speed) * -0.125);
+						background-color: #7DBAAB;
+					}
+
+					@keyframes pulse0112 {
+						0%,
+						100% {
+							transform: scale(0);
+							opacity: 0.5;
+						}
+					
+						50% {
+							transform: scale(1);
+							opacity: 1;
+						}
+					}
+
+					.lock body{
+						overflow: hidden;
+						touch-action: none;
+						overscroll-behavior: none;
+					}
+					.loading body>*:not(.fls-preloader){
+						opacity: 0;
+						visibility: hidden;
+					}
+					.loaded body>*:not(.fls-preloader){
+						transition: opacity 0.5s ease 0s;
+						opacity: 1;
+						visibility: visible;
+					}
+				</style>`;
+
+					document.head.insertAdjacentHTML("beforeend", preloaderStyleTemplate);
+
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__spinner-dot dot-spinner">
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+								<div class="dot-spinner__dot"></div>
+							</div>
+							<div class="fls-preloader__loader-block">
+								<div class="fls-preloader__loader"></div>
+								<div class="fls-preloader__loader"></div>
+								<div class="fls-preloader__loader"></div>
+							</div>
+						</div>
+					</div>`;
+					document.body.insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							// counter >= 100 ? addLoadedClass() : null;
+							if (counter >= 100) {
+								// Задержка перед вызовом addLoadedClass
+								setTimeout(addLoadedClass, 4300); // 1000 мс = 1 секунда
+							}
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						/*
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+						*/
+						setTimeout(() => { // Задержка после выполнения функции
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 1000); // 1000 мс = 1 секунда
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20240610230025"></script>
+</body>
+
+</html>
